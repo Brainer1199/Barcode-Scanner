@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="background">
+            <div id="scanner-container">
+                <video id="preview"></video>
+            </div>
+            <div id="button-container">
+                <button id="scan-btn">Scan Any QR or Bar Code</button>
+                <button id="gallery-btn">Choose Image from Gallery</button>
+                <button id="create-qr-btn">Create Your Own QR Code</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://rawgit.com/schmich/instascan-builds/master/instascan.min.js"></script>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
